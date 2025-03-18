@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=no"/>
+    <title>Kreuzgasse</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <style>
+  
+
+
+        a {
+            color: rgb(255, 255, 255);
+            background-image: linear-gradient(to right, rgb(0, 134, 40), rgb(245, 245, 245), red);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            transition: background-position 0.5s ease;
+            background-size: 100%;
+
+        }
+
+        
+        
+
+        /*hover effekts für links */
+        a.hover-link-1:hover {
+            color: rgb(0, 134, 40);
+            font-size: 50px;
+            text-decoration: underline;
+            transition: 0.5s ease, text-decoratino 0.5s ease;
+            background-position: right;
+            transform: translateX(-5px)
+
+
+        }
+
+        a.hover-link-2:hover {
+            color: rgb(250, 252, 250);
+            font-size: 50px;
+            text-decoration: underline;
+            transition: 0.5s ease, text-decoratino 0.5s ease;
+            transform: translateX(-5px)
+
+        }
+
+        a.hover-link-3:hover {
+            color: rgb(194, 36, 36);
+            font-size: 50px;
+            text-decoration: underline;
+            transition: 0.5s ease, text-decoratino 0.5s ease;
+            transform: translateX(-5px);
+        }
+
+        a.hover-link-4:hover {
+            color: rgb(252, 250, 250);
+            font-size: 50px;
+            text-decoration: underline;
+            transition: 0.5s ease, text-decoratino 0.5s ease;
+            transform: translateX(-5px);
+
+
+
+        }
+
+        .Italiaflag {
+            width: 50px;
+            margin-right: 20px;
+            margin-bottom: -7px;
+
+
+        }
+
+        .Logo {
+            width: 300px;
+            margin-top: -50px;
+
+        }
+
+        body {
+            background-image: url(Backround.jpg);
+            background-size: cover;
+            margin: 0;
+            padding-left: 100px;
+            padding-right: 100px;
+            font-family: "Italianno",
+                serif;
+            font-weight: 400;
+            font-style: normal;
+            touch-action: none;
+            /* verhinder das Zommen und Schieben auf Handys */
+
+        }
+
+        .header-image {
+            width: 20%;
+        }
+
+        .headline {
+            color: rgb(0, 0, 0);
+
+        }
+
+        .navbar a {
+            text-decoration: none;
+            font-size: 50px;
+            text-align: center;
+            align-items: center;
+            margin-right: 150px;
+            justify-content: space-between;
+        }
+
+
+        .navbar {
+            display: flex;
+            background-color: rgb(0, 0, 0,0.8);
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px;
+        }
+
+        .Box2 {
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .Gebäude2 {
+            margin-bottom: 50px;
+            margin-left: 450px;
+            margin-top: 100px;
+            width: 750px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px;
+            transition: transform 0.5s ease, box-shadow 0.5s ease
+        }
+        .Gebäude2:hover{
+            transform:scale(1.05);
+            box-shadow: 4px 4px 20px;
+        }
+        
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <img class="Logo" src="Kreuzgasse.png">
+
+    <br>
+    <div class="navbar">
+        <a href="Kontakt.html" class="hover-link-1"target="_blank">Kontakt</a>
+        <a href="Speißekarte.html" class="hover-link-2"target="_blank">Speißekarte</a>
+        <a href="Öffnungszeiten.html" class="hover-link-3"target="_blank">Öffnungszeiten</a>
+        <a href="Resavierung.html" class="hover-link-4"target="_blank">Reservierung</a>
+
+        <img class="Italiaflag" src="Flag.png">
+
+    </div>
+    <div class="Box2">
+        <img class="Gebäude2" src="Gebäude2.jpg">
+    </div>
+</body>
+
+</html>
